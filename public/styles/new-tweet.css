@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  padding-top: 10%;
+  width: 70%;
+  flex-direction: column;
+
+}
+
+.container h2 {
+  font-size: 2rem;
+  margin-top: 0.1rem;
+}
+
+#tweet-submission {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.tweet-text {
+resize: none;
+border: none;
+border-bottom: 4px ridge;
+background-color: #F1F2F6;
+outline: none;
+}
+
+.tweet-underline {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  padding-top: 1rem;
+}
+
+.tweet_btn {
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  font-family: "Bungee";
+}

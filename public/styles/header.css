@@ -1,0 +1,40 @@
+.header{
+  z-index: -1;
+  height: 670px;
+  padding-top: 10%;
+  width: 20%;
+  margin-top: 200px;
+  background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 500% 500%;
+  animation: gradient 10s ease infinite;
+  margin-left: 1%;
+}
+
+.header-avatar{
+  display: flex;
+  justify-content: center;
+  padding-top: 60%;
+  background-color: yellow;
+}
+
+.header-name{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+
+@media only screen and (max-width: 1100px) {
+  header {
+    z-index: -1;
+    height: 670px;
+    width: 100%;
+    padding-top: 20%;
+    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    margin: 0px;
+  }
+  }
+
+
+  

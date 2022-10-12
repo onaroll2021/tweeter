@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  background-color: #3E54A2;
+  padding: 1.5em;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+}
+
+#tweeter-logo {
+  font-family: 'Bungee';
+  font-weight: 600;
+  color: white;
+  font-size: 32px;
+}
+
+.navbar-right-newtweet {
+  color: white;
+  display: inline-flex;
+}
+
+nav i {
+  color: white;
+  display: inline-block;
+  margin: -15px 15px;
+}
+
+.write-new-tweet {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  margin-right: 1.5em;
+}
