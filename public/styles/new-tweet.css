@@ -3,7 +3,7 @@
   padding-top: 10%;
   width: 70%;
   flex-direction: column;
-
+  margin: 1%
 }
 
 .container h2 {
@@ -15,6 +15,7 @@
   display: flex;
   flex-direction: column;
   width: 70%;
+  margin: 1%;
 }
 
 .tweet-text {
@@ -41,4 +42,46 @@ outline: none;
   color: white;
   background-color: blue;
   font-family: "Bungee";
+}
+
+/* Below is the format for tweetinfo */
+/* Below is the format for tweetinfo */
+/* Below is the format for tweetinfo */
+#newtweets-container footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+
+#newtweets-container {
+  width: 70%;
+  border: 2px solid grey;
+  margin: 1%;
+}
+
+#tweetcontent {
+  border-bottom: 2px solid grey;
+  width: 95%;
+  padding: 1%;
+  margin: 12px 12px;
+}
+
+#newtweets-container header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1%;
+}
+
+#usericon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#usericon h3{
+  margin-left: 2rem;
 }
