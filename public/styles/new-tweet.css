@@ -44,9 +44,6 @@ outline: none;
   font-family: "Bungee";
 }
 
-/* Below is the format for tweetinfo */
-/* Below is the format for tweetinfo */
-/* Below is the format for tweetinfo */
 #tweets-container .tweet-box {
   margin: 2%;
   border: 2px solid grey;
@@ -101,31 +98,29 @@ outline: none;
   color: red;
 }
 
-
-
- @media only screen and (max-width: 1100px) and (min-width: 768px) {
+@media only screen and (max-width: 1100px) and (min-width: 768px) {
   #tweets-container h3 {
     font-size: 3vw;
-   }
-   #tweets-container footer {
+  }
+  #tweets-container footer {
     font-size:2vw;
-   }
-   #tweetcontent {
+  }
+  #tweetcontent {
     font-size: 2vw;
-   }
- }
+  }
+}
 
- @media only screen and (max-width: 767px) and (min-width: 400px) {
+@media only screen and (max-width: 767px) and (min-width: 400px) {
   #tweets-container h3 {
     font-size: 4vw;
-   }
-   #tweets-container footer {
+  }
+  #tweets-container footer {
     font-size:2vw;
-   }
-   #tweetcontent {
+  }
+  #tweetcontent {
     font-size: 2vw;
-   }
-   .new-tweet {
+  }
+  .new-tweet {
     margin-top: 30vh;
-   }
- }
+  }
+}

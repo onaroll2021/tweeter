@@ -1,21 +1,14 @@
-/*
- * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
- * https://css-tricks.com/international-box-sizing-awareness-day/
- * Do not modify these two selectors, please
- */
+/* layout for whole HTML */
 html {
   box-sizing: border-box;
   font-family: 'Source Sans Pro';
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-/*
- * Global layout stuff
- */
 
 body {
   color: #545149;
@@ -25,8 +18,3 @@ body {
   flex-wrap: wrap;
   overflow-x: hidden;
 }
-
-
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
