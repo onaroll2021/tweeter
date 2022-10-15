@@ -16,3 +16,8 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Preview
+
+https://user-images.githubusercontent.com/106492401/195972732-212d5f7f-c986-450e-b3a1-a3682db043af.mov
+
